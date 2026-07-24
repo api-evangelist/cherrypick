@@ -1,25 +1,68 @@
 aid: cherrypick
 name: Cherrypick
-description: Cherrypick is a company surfaced as a portfolio company of speedinvest and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Cherrypick is a London-based food-tech company (backed by Speedinvest) behind an all-in-one
+  meal-planning and grocery-shopping mobile app. The app helps home cooks discover personalized
+  recipes tailored to their dietary preferences, automatically plan their weekly meals, and turn
+  those plans into a supermarket basket at real supermarket prices for home delivery or in-store
+  pickup. Positioned as a lower-cost alternative to recipe-box subscription services, Cherrypick
+  combines recipe discovery, meal planning, and grocery ordering into a single consumer experience
+  aimed at saving people time and money while reducing food waste. Cherrypick is a consumer mobile
+  application with no public developer, API, or partner-integration surface at this time; this
+  API Evangelist profile tracks the company as a network entity rather than an API producer.
 url: https://raw.githubusercontent.com/api-evangelist/cherrypick/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/655f7c1f9e1f15060121e2d5/6580315b7546e598099a80ba_Link%20image.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - speedinvest
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-has-api: false
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
-apis: []
+- Food Tech
+- Meal Planning
+- Grocery
+- Recipes
+- Consumer App
+- Mobile
+- E-Commerce
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+apis: []
 common:
 - type: Website
   url: https://cherrypick.co
+- type: HelpCenter
+  url: https://www.cherrypick.co/help
+- type: SignUp
+  url: https://app.adjust.com/eenrk1g_swuj9wl
+- type: TermsOfService
+  url: https://www.cherrypick.co/terms
+- type: PrivacyPolicy
+  url: https://www.cherrypick.co/privacy
+- type: DomainSecurity
+  url: security/cherrypick-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
